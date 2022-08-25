@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@RequestMapping("/cardservice")
 public class CardServiceController {
 
     final CardService cardService;
